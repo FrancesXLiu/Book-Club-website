@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BDS Book Club</title>
+<link href="Book Club Style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<!--Navigation-->
+			<div class="logo custom-color">
+				<img id="logo_image" src="logos-book.jpg" alt="logo">
+				<h3>BDS Book Club</h3>
+			</div>
+			<nav>
+				<ul>
+					<li class="custom-color"><a class="custom-color" href="#BDS Book Club.html" style="font-weight:bold; text-decoration: underline;">Home</a></li>
+					<li class="custom-color"><a class="custom-color" href="#About Us">About Us</a></li>
+					<li class="custom-color"><a class="custom-color" href="#Books">Books</a></li>
+					<li class="custom-color"><a class="custom-color" href="#Get Started">Get Started</a></li>
+					<li class="custom-color"><a class="custom-color" href="#News">News</a></li>
+					<li class="custom-color"><a class="custom-color" href="#Members">Members</a></li>
+					<li class="custom-color"><a class="custom-color" href="#Login">Login</a></li>
+					<li>
+						<button class="register_button custom-background-color custom-border-color" type="button"><a class="register_button_text" href="#" id="trigger-modal">Register</a></button>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div class="main_section">
+			<div class="bg bg_blur"></div>
+			<div class="register_content content_front custom-color">
+				<h2>Meet new people...</h2>
+				<h2>Experience new and interesting reading adventures...</h2>
+				<h2>Whatever the reason you want to be part of a book group, we can help.</h2>
+				<div class="view_more_div"><button class="big_button custom-background-color custom-border-color" type="button"><a class="register_button_text" href="#">Learn More</a></button></div>
+			</div>
+		</div>
+		
+		<div>
+			<div><h5 class="section_header custom-color">Featured Books</h5></div>
+			<div class="row">
+  				<div class="column">
+					<img class="covers" src="moral_defence.jpg" alt="Moral Defence">
+					<img class="covers" src="queen_of_diamonds.jpg" alt="Queen of Diamonds">					
+  				</div>
+  				<div class="column">
+					<img class="covers" src="the_austin_escape.jpg" alt="The Austin Escape">
+					<img class="covers" src="the_beautiful_pretender.jpg" alt="The Beautiful Pretender">
+ 				</div>
+  				<div class="column">
+					<img class="covers" src="the_weight_of_lies.jpg" alt="The Weight of Lies">
+					<img class="covers" src="the_widows_watcher.jpg" alt="The Widow's Watcher">
+  				</div>
+			</div>
+		<div class="view_more_div"><button class="big_button custom-background-color custom-border-color" type="button"><a class="register_button_text" href="#regsiter">View More</a></button></div>
+		</div>
+		
+		<div>
+			<div><h5 class="section_header custom-color">Latest News</h5></div>
+			<div class="news_row" style="position: relative">
+				<div class="flex-container">
+				<div>
+					<h6>Are you still looking for a book group? </h6>
+					<h7>We're hosting a series of online and face-to-face events during May designed specifically to bring together people interested in starting, joining or growing book groups.If you are: currently looking for a book group to join and haven't found one yet, wanting...</h7><br><br>
+					<button class="small_button custom-background-color custom-border-color" type="button"><a class="register_button_text" href="#regsiter">View More</a></button>
+				</div>
+			  	<div>
+					<h6>Book Recommends: Being Chinese</h6>
+					<h7>By Helene Wong, Reviewed by Jeanie Brigham   “You can go anywhere you like,” her mother said. “This is your home.” In 1980, at the age of about 30, Helene Wong was in China for the first time in her life. She had accompanied her parents to her fatherr’s ancestral...</h7><br><br>
+					<button class="small_button custom-background-color custom-border-color" type="button"><a class="register_button_text" href="#regsiter">View More</a></button>
+				</div>
+			  	<div>
+					<h6>New Readings: Reading about Race</h6>
+					<h7>At BDS we believe that book groups can help pave the way to a fairer, kinder, stronger New Zealand by being places where people can connect, learn, be inspired, and grow together. Literature has the power to act as gateway to compassion, hope, love, under...</h7><br><br>
+					<button class="small_button custom-background-color custom-border-color" type="button"><a class="register_button_text" href="#regsiter">View More</a></button>
+				</div>
+					</div>
+				</div>
+        </div>
+		
+		
+		<div id="about_title_div" class="custom-background-color">
+			<h5 class="section_header" id="about">About</h5>
+			<p>BDS Book Club lends books and professionally prepared discussion notes to book groups. Groups receive enough copies of their selected title to allow everyone in the group to read the same book at the same time. We're a nationwide non-profit organisation with a 46-year track record. We try to keep our membership costs affordable for everyone, while offering a range of programmes and titles to suit a wide range of reading tastes - from classics to the lastest page-turners. There's 1000+ fiction and non-fiction titles to choose from.  We can help you join an existing group, or you can register your group with us.</p>
+			<div>
+				<ul id="bottom_links">
+					<li><a class="bottom_clicky" href="#contact">Contact Us</a></li>
+					<li><a class="bottom_clicky" href="#privacy">Privacy Policy</a></li>
+					<li><a class="bottom_clicky" href="#map">Site Map</a></li>
+					<li><a class="bottom_clicky" href="#terms">Terms and Conditions</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
+
+<!--The html, css. and JavaScript code for the register form is modified from a W3School tamplate: https://www.w3schools.com/howto/howto_css_register_form.asp-->
+<!--Trigger modal-->
+<div id="bookclubrego" class="modal"><form>
+	<!--Model content-->
+	<div class="modal-content">
+	<span class="close">&times;</span>
+	<h2>Resgister</h2>
+	
+	<div id="userDetails">
+	<h3 style="color: grey">User Detials</h3>
+	<label for="given_name"><b>Given Name</b></label>
+	<input type="text" placeholder="  Enter given name" name="given_name" required> <br>
+	
+	<label for="surname"><b>Surname</b></label>
+	<input type="text" placeholder="  Enter surname" name="surname" required> <br>
+	
+	<label for="username"><b>Username</b></label>
+	<input type="text" placeholder="  Enter username" name="username" required> <br>
+	
+	<label for="psw"><b>Password</b></label>
+	<input type="password" placeholder="  Enter password" name="psw" required> <br>
+	</div>
+	
+	<div id="addresses">
+	<h3 style="color: grey">Addresses</h3>
+	<label for="home_add"><b>Home Address</b></label>
+	<input type="text" placeholder="  Enter home address" name="home_add" required> <br>
+	
+	<label for="word_add"><b>Word Address</b></label>
+	<input type="text" placeholder="  Enter word address" name="work_add" required> <br>
+	</div>
+	
+	<div id="contacts">
+	<h3 style="color: grey">Contacts</h3>
+	<label for="mobile"><b>Mobile Number</b></label>
+	<input type="text" placeholder="  Enter mobile number" name="mobile" required> <br>
+	
+	<label for="email"><b>Email</b></label>
+	<input type="text" placeholder="  Enter email" name="email" required>	<br>
+	</div>
+	
+	<button class="small_button custom-background-color custom-border-color" type="button"><a class="register_button_text" id = "submit" href="#">Submit</a></button>	
+	
+	</div></form>
+</div>
+<script src="form_trigger.js" type="text/javascript"></script>
+
+	
+</html>
